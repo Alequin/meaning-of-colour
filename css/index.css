@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#main-container{
+  position: fixed;
+  width:500px; height: 500px;
+  background-color: white;
+  margin: auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  border-radius: 5000px;
+  -moz-border-radius: 5000px;
+  -webkit-border-radius: 5000px;
+  box-shadow: 0 0 30px 1px;
+  -moz-box-shadow: 0 0 30px 1px;
+  -webkit-box-shadow: 0 0 30px 1px;
+}
+
+.colour-circle{
+  position: absolute;
+  background-color: black;
+  width: 130px; height: 130px;
+  border-radius: 5000px;
+  -moz-border-radius: 5000px;
+  -webkit-border-radius: 5000px;
+  border: 1px solid grey;
+  -moz-border: 1px solid grey;
+  -webkit-border: 1px solid grey;
+}
+
+.colour-circle:hover{
+  width: 132px; height: 132px;
+  box-shadow: 0 0 20px 20px #dcdcdc;
+  -moz-box-shadow: 0 0 20px 20px #dcdcdc;
+  -webkit-box-shadow: 0 0 20px 20px #dcdcdc;
+}
+
+#yellow{
+  background-color: yellow;
+  left: 185px;
+  top: 20px;
+}
+#green{
+  background-color: green;
+  left: 320px;
+  top: 100px;
+}
+#cyan{
+  background-color: cyan;
+  left: 320px;
+  top: 260px;
+}
+#blue{
+  background-color: blue;
+  left: 185px;
+  top: 345px;
+}
+#magenta{
+  background-color: magenta;
+  left: 50px;
+  top: 100px;
+}
+#red{
+  background-color: red;
+  left: 50px;
+  top: 260px;
+}
