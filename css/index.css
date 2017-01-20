@@ -1,7 +1,24 @@
 body{
   margin: 0;
   padding: 0;
+  background-color:  black;
+}
+
+#intro-container{
+  position: fixed;
+  width:500px; height: 500px;
   background-color: white;
+  margin: auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  box-shadow: 0 0 30px 10px grey;
+  -moz-box-shadow: 0 0 30px 10px grey;
+  -webkit-box-shadow: 0 0 30px 10px grey;
 }
 
 #main-container{
@@ -19,54 +36,84 @@ body{
   box-shadow: 0 0 30px 1px;
   -moz-box-shadow: 0 0 30px 1px;
   -webkit-box-shadow: 0 0 30px 1px;
+  display: none;
 }
+
 
 .colour-circle{
   position: absolute;
-  background-color: black;
-  width: 130px; height: 130px;
+  width: 65px; height: 65px;
+  border: 1px solid grey;
   border-radius: 5000px;
   -moz-border-radius: 5000px;
   -webkit-border-radius: 5000px;
-  border: 1px solid grey;
-  -moz-border: 1px solid grey;
-  -webkit-border: 1px solid grey;
+  margin: auto;
+  left:0;
+  right:0;
 }
 
 .colour-circle:hover{
-  width: 132px; height: 132px;
-  box-shadow: 0 0 20px 20px #dcdcdc;
-  -moz-box-shadow: 0 0 20px 20px #dcdcdc;
-  -webkit-box-shadow: 0 0 20px 20px #dcdcdc;
+  width: 67px; height: 67px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 5px;
+  -moz-box-shadow: 0 0 5px 1px;
+  -webkit-box-shadow: 0 0 5px 1px;
+}
+
+#white{
+  margin: auto;
+  top: 15px;
+}
+
+#black{
+  margin: auto;
+  top: 420px;
 }
 
 #yellow{
-  background-color: yellow;
-  left: 185px;
-  top: 20px;
+  right:200px;
+  top:0;
+  bottom:355px;
 }
-#green{
-  background-color: green;
-  left: 320px;
-  top: 100px;
+
+#orange{
+  left:200px;
+  top:0;
+  bottom:355px;
 }
-#cyan{
-  background-color: cyan;
-  left: 320px;
-  top: 260px;
-}
+
 #blue{
-  background-color: blue;
-  left: 185px;
-  top: 345px;
+  right: 360px;
+  top:0;
+  bottom:187.5px;
 }
-#magenta{
-  background-color: magenta;
-  left: 50px;
-  top: 100px;
+
+#green{
+  left: 360px;
+  top:0;
+  bottom:187.5px;
 }
+
+#purple{
+  right: 360px;
+  bottom:0;
+  top:187.5px;
+}
+
+#pink{
+  left: 360px;
+  bottom:0;
+  top:187.5px;
+}
+
+#brown{
+  right:200px;
+  bottom:0;
+  top:355px;
+}
+
 #red{
-  background-color: red;
-  left: 50px;
-  top: 260px;
+  left:200px;
+  bottom:0;
+  top:355px;
 }
