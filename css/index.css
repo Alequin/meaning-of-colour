@@ -22,7 +22,7 @@ body{
 }
 
 #main-container{
-  position: fixed;
+  position: absolute;;
   width:500px; height: 500px;
   background-color: white;
   margin: auto;
@@ -71,49 +71,49 @@ body{
 }
 
 #yellow{
-  right:200px;
+  right:230px;
   top:0;
-  bottom:355px;
+  bottom:325px;
 }
 
 #orange{
-  left:200px;
+  left:230px;
   top:0;
-  bottom:355px;
+  bottom:325px;
 }
 
 #blue{
-  right: 360px;
+  right: 375px;
   top:0;
-  bottom:187.5px;
+  bottom:125px;
 }
 
 #green{
-  left: 360px;
+  left: 375px;
   top:0;
-  bottom:187.5px;
+  bottom:125px;
 }
 
 #purple{
-  right: 360px;
+  right: 375px;
   bottom:0;
-  top:187.5px;
+  top:125px;
 }
 
 #pink{
-  left: 360px;
+  left: 375px;
   bottom:0;
-  top:187.5px;
+  top:125px;
 }
 
 #brown{
-  right:200px;
+  right:230px;
   bottom:0;
-  top:355px;
+  top:325px;
 }
 
 #red{
-  left:200px;
+  left:230px;
   bottom:0;
-  top:355px;
+  top:325px;
 }
