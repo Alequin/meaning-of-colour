@@ -10,14 +10,15 @@
 
   <div id='inner-body'></div>
 
-  <div id='intro-container'>
-    <p onClick="onClickEnter()">Enter</p>
+  <div id='intro-container' onClick="onClickEnter()">
+    <p id="into-text">Enter</p>
   </div>
 
   <h2 id="colour-description-title">Colour Psychology</h2>
 
   <div id="main-container">
 
+    <p id='select-a-colour-text'><strong>Select a colour</strong></p>
     <p id='colour-description-text'></p>
 
     <div id="yellow" class="colour-circle" style="background-color: yellow" onmousedown="onmousedownYellow()"></div>
@@ -33,6 +34,7 @@
   </div>
 
   <script src="js/jquery-3-1-1.js" rel="javascript"></script>
+  <script src="js/description-texts.js" rel="javascript"></script>
   <script src="js/colour-circle-events.js" rel="javascript"></script>
   <script src="js/colour-wheel.js" rel="javascript"></script>
 

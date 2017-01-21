@@ -1,9 +1,16 @@
 
+var isSelectAColourTextHidden = false;
 const FADE_IN_TIME = 500;
 
 $(document).ready(function(){
 
-  $('.colour-circle').on("mousedown", function(){
+  $('.colour-circle').on("mousedown mouseout", function(){
+
+    if(!isSelectAColourTextHidden){
+      $('#select-a-colour-text').remove();
+      isSelectAColourTextHidden = true;
+    }
+
     $(this).width('65px');
     $(this).height('65px');
 
@@ -37,16 +44,24 @@ function fadeBackgroundIntoColour(colourToSet){
 }
 
 function setTitleText(textToSet){
-  var $title = $("#colour-description-title");
-  $title.stop(true, true);
+  setTextInElement('colour-description-title', textToSet);
+}
 
-  $title.fadeOut(FADE_IN_TIME/2);
+function setDescriptionText(textToSet){
+  setTextInElement('colour-description-text', textToSet);
+}
+
+function setTextInElement(elementID, textToSet){
+  var $element = $('#'+elementID);
+  $element.stop(true, true);
+
+  $element.fadeOut(FADE_IN_TIME/2);
 
   setTimeout(function() {
-    document.getElementById('colour-description-title').innerHTML = textToSet;
+    document.getElementById(elementID).innerHTML = textToSet;
   },FADE_IN_TIME/2);
 
-  $title.fadeIn(FADE_IN_TIME/2)
+  $element.fadeIn(FADE_IN_TIME/2)
 }
 
 /**
@@ -65,10 +80,12 @@ function transitionPageToColour(colourName, colourCode){
 
 function onmousedownYellow(){
   transitionPageToColour("Yellow");
+  setDescriptionText(descriptionTexts[0]);
 }
 
 function onmousedownGreen(){
   transitionPageToColour("Green");
+  setDescriptionText(descriptionTexts[1]);
 }
 
 function onmousedownBlue(){

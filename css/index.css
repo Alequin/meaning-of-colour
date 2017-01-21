@@ -30,6 +30,10 @@ html body{
   -webkit-box-shadow: 0 0 30px 10px grey;
 }
 
+#intro-text{
+  
+}
+
 #main-container{
   position: absolute;
   width:500px; height: 500px;
@@ -62,13 +66,22 @@ html body{
   text-decoration: underline;
 }
 
+p{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+#select-a-colour-text{
+  width: 100%;
+  top: 225px;
+  text-align: center;
+  font-size: 40px;
+}
+
 #colour-description-text{
-  position: absolute;
-  padding: 0;
-  margin: 0;
   left: 120px;
   right: 120px;
   top: 130px;
   bottom: 130px;
-  background-color: red;
 }
