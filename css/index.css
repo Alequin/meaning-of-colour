@@ -31,7 +31,7 @@ html body{
 }
 
 #intro-text{
-  
+
 }
 
 #main-container{
@@ -56,13 +56,12 @@ html body{
   position: absolute;
   padding: 0;
   margin: 0;
+  top: 90px;
   width: 100%;
-  top: 100px;
   text-align: center;
   margin: auto;
-  font-size: 50px;
+  font-size: 40px;
   color: black;
-  text-shadow: 0 0 5px white;
   text-decoration: underline;
 }
 
@@ -82,6 +81,6 @@ p{
 #colour-description-text{
   left: 120px;
   right: 120px;
-  top: 130px;
+  top: 140px;
   bottom: 130px;
 }
