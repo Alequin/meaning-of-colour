@@ -6,4 +6,8 @@ function onClickEnter(){
 
 $(document).ready(function() {
 
+  $('.colour-circle').on('mouseenter', function(){
+    var colourToSet = $(this).css("background-color");
+    $('body').css("background-color", colourToSet);
+  });
 });
