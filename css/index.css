@@ -1,7 +1,16 @@
-body{
+html body{
   margin: 0;
   padding: 0;
   background-color:  black;
+}
+
+#inner-body{
+  position: absolute;
+  top:0;
+  bottom:0;
+  width: 100%;
+  display: none;
+  background-color: black;
 }
 
 #intro-container{
