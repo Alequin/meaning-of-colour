@@ -2,6 +2,7 @@ html body{
   margin: 0;
   padding: 0;
   background-color:  black;
+  font-family: arial, sans-serif;
 }
 
 body{
@@ -34,8 +35,10 @@ body{
 
 #intro-text-title{
     width: 100%;
+    margin-top: 15px;
     text-align: center;
     text-decoration: underline;
+    font-size: 40px;
 }
 
 #intro-text-1, #intro-text-2{
@@ -109,9 +112,9 @@ body{
 }
 
 p{
-    position: absolute;
-    padding: 0;
-    margin: 0;
+  position: absolute;
+  padding: 0;
+  margin: 0;
 }
 
 #select-a-colour-text{
@@ -124,6 +127,7 @@ p{
 #colour-description-text{
   left: 105px;
   right: 105px;
+  font-size: 17.5px;
   top: 135px;
   bottom: 130px;
   line-height: 33px;
