@@ -87,37 +87,45 @@ function onmousedownYellow(){
 
 function onmousedownGreen(){
   transitionPageToColour("Green");
-  setDescriptionText(descriptionTexts[1]);
+  setDescriptionText(descriptionTexts[7]);
 }
 
 function onmousedownBlue(){
   transitionPageToColour("Blue");
+  setDescriptionText(descriptionTexts[1]);
 }
 
 function onmousedownPurple(){
   transitionPageToColour("Purple");
+  setDescriptionText(descriptionTexts[2]);
 }
 
 function onmousedownPink(){
   transitionPageToColour("Pink", "rgb(255,105,180)");
+  setDescriptionText(descriptionTexts[6]);
 }
 
 function onmousedownRed(){
   transitionPageToColour("Red");
+  setDescriptionText(descriptionTexts[5]);
 }
 
 function onmousedownOrange(){
   transitionPageToColour("Orange");
+  setDescriptionText(descriptionTexts[8]);
 }
 
 function onmousedownBrown(){
   transitionPageToColour("Brown", "rgb(139,69,19)");
+  setDescriptionText(descriptionTexts[3]);
 }
 
 function onmousedownBlack(){
   transitionPageToColour("Black");
+  setDescriptionText(descriptionTexts[4]);
 }
 
 function onmousedownWhite(){
   transitionPageToColour("White");
+  setDescriptionText(descriptionTexts[9]);
 }

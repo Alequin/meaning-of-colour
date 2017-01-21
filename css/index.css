@@ -19,7 +19,7 @@ body{
 }
 #inner-body-2{
   background-image: url('../images/oie_transparent.png');
-  background-size: cover; 
+  background-size: cover;
 }
 
 #intro-container{
@@ -49,14 +49,14 @@ body{
   position: absolute;
   text-align: center;
   line-height: 33px;
-  font-size: 26px;
+  font-size: 23px;
   top:65px;
   bottom:40px;
   left:30px;
   right:30px;
 }
 #intro-text-2{
-  top: 310px;
+  top: 280px;
 }
 
 button{
@@ -90,7 +90,7 @@ button{
   position: absolute;
   padding: 0;
   margin: 0;
-  top: 90px;
+  top: 85px;
   width: 100%;
   text-align: center;
   margin: auto;
@@ -113,8 +113,10 @@ p{
 }
 
 #colour-description-text{
-  left: 120px;
-  right: 120px;
-  top: 140px;
+  left: 105px;
+  right: 105px;
+  top: 135px;
   bottom: 130px;
+  line-height: 33px;
+  text-align: center;
 }
