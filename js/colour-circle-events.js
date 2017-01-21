@@ -36,7 +36,7 @@ $(document).ready(function(){
 function fadeBackgroundIntoColour(colourToSet){
 
   colourToSet = colourToSet.toLowerCase();
-  var $innerBody = $("#inner-body-1");
+  var $innerBody = $("#inner-body");
 
   var previousInnerBodyColour = $innerBody.css("background-color");
   $('body').css("background-color", previousInnerBodyColour);

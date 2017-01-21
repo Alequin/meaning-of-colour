@@ -7,19 +7,12 @@ html body{
 body{
 }
 
-#inner-body-1, #inner-body-2{
+#inner-body{
   position: absolute;
   top:0;
   bottom:0;
   width: 100%;
-}
-
-#inner-body-1{
   background-color: black;
-}
-#inner-body-2{
-  background-image: url('../images/oie_transparent.png');
-  background-size: cover;
 }
 
 #intro-container{
