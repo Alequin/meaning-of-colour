@@ -4,12 +4,14 @@ const FADE_IN_TIME = 500;
 
 $(document).ready(function(){
 
-  $('.colour-circle').on("mousedown mouseout", function(){
-
+  $('.colour-circle').on("mousedown", function(){
     if(!isSelectAColourTextHidden){
       $('#select-a-colour-text').remove();
       isSelectAColourTextHidden = true;
     }
+  });
+
+  $('.colour-circle').on("mousedown mouseout", function(){
 
     $(this).width('65px');
     $(this).height('65px');
@@ -34,7 +36,7 @@ $(document).ready(function(){
 function fadeBackgroundIntoColour(colourToSet){
 
   colourToSet = colourToSet.toLowerCase();
-  var $innerBody = $("#inner-body");
+  var $innerBody = $("#inner-body-1");
 
   var previousInnerBodyColour = $innerBody.css("background-color");
   $('body').css("background-color", previousInnerBodyColour);

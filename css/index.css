@@ -4,13 +4,22 @@ html body{
   background-color:  black;
 }
 
-#inner-body{
+body{
+}
+
+#inner-body-1, #inner-body-2{
   position: absolute;
   top:0;
   bottom:0;
   width: 100%;
-  display: none;
+}
+
+#inner-body-1{
   background-color: black;
+}
+#inner-body-2{
+  background-image: url('../images/oie_transparent.png');
+  background-size: cover; 
 }
 
 #intro-container{
@@ -30,8 +39,33 @@ html body{
   -webkit-box-shadow: 0 0 30px 10px grey;
 }
 
-#intro-text{
+#intro-text-title{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
 
+#intro-text-1, #intro-text-2{
+  position: absolute;
+  text-align: center;
+  line-height: 33px;
+  font-size: 26px;
+  top:65px;
+  bottom:40px;
+  left:30px;
+  right:30px;
+}
+#intro-text-2{
+  top: 310px;
+}
+
+button{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom:17px;
+    font-size: 30px;
 }
 
 #main-container{
