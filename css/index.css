@@ -31,7 +31,7 @@ html body{
 }
 
 #main-container{
-  position: absolute;;
+  position: absolute;
   width:500px; height: 500px;
   background-color: white;
   margin: auto;
@@ -48,81 +48,27 @@ html body{
   display: none;
 }
 
-
-.colour-circle{
+#colour-description-title{
   position: absolute;
-  width: 65px; height: 65px;
-  border: 1px solid grey;
-  border-radius: 5000px;
-  -moz-border-radius: 5000px;
-  -webkit-border-radius: 5000px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  top: 100px;
+  text-align: center;
   margin: auto;
-  left:0;
-  right:0;
+  font-size: 50px;
+  color: black;
+  text-shadow: 0 0 5px white;
+  text-decoration: underline;
 }
 
-.colour-circle:hover{
-  width: 67px; height: 67px;
-  border: 1px solid transparent;
-  box-shadow: 0 0 5px 5px;
-  -moz-box-shadow: 0 0 5px 1px;
-  -webkit-box-shadow: 0 0 5px 1px;
-}
-
-#white{
-  margin: auto;
-  top: 15px;
-}
-
-#black{
-  margin: auto;
-  top: 420px;
-}
-
-#yellow{
-  right:230px;
-  top:0;
-  bottom:325px;
-}
-
-#orange{
-  left:230px;
-  top:0;
-  bottom:325px;
-}
-
-#blue{
-  right: 375px;
-  top:0;
-  bottom:125px;
-}
-
-#green{
-  left: 375px;
-  top:0;
-  bottom:125px;
-}
-
-#purple{
-  right: 375px;
-  bottom:0;
-  top:125px;
-}
-
-#pink{
-  left: 375px;
-  bottom:0;
-  top:125px;
-}
-
-#brown{
-  right:230px;
-  bottom:0;
-  top:325px;
-}
-
-#red{
-  left:230px;
-  bottom:0;
-  top:325px;
+#colour-description-text{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 120px;
+  right: 120px;
+  top: 130px;
+  bottom: 130px;
+  background-color: red;
 }
